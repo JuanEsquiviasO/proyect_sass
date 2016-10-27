@@ -1,0 +1,8 @@
+COMANDOS DE SASS
+
+sass styles.scss styles.css COMPILA ( 1 | 2 )
+
+sass --watch . COMPILA ( 1 | 2 ) EN MISMA RUTA
+
+
+quedando en 34:54

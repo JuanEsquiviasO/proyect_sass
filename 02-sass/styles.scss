@@ -1,0 +1,308 @@
+// Variables se crean con signo $
+
+// $main-size: 5em;
+// $main-border: 1px solid red;
+
+// p {
+//   $bg-color: green;
+//   background: $bg-color;
+//   order: $main-size / 2;
+//   border: $main-border;
+// }
+
+// $main-color: yellow;
+
+// body {
+//   $main-color: red !global;
+//   $main-color: pink;
+//   background: $main-color;
+// }
+
+// div {
+//   background: $main-color;
+// }
+
+// p {
+//   background: $main-color;
+// }
+
+//Anidamiento
+
+//Mal uso
+
+// p {
+//   color: red;
+
+//   a {
+//     color: green;
+
+//     span {
+//       color: yellow;
+
+//       strong {
+//         color: pink;
+//       }
+//     }
+//   }
+// }
+
+//Buen uso
+
+// h2 {
+//   + p {
+//     color: red;
+//   }
+
+//   > a {
+//     text-transform: uppercase;
+//   }
+// }
+
+// uso de & para repetir el selector padre
+
+// .button {
+//   display: inline-block;
+//   background: red;
+//   &:hover {
+//     background: green;
+//   }
+//   &::after {
+//     content: ".00";
+//   }
+// }
+
+// BEM 
+// Bloque - Elemento - Modificador
+
+// .menu {
+//   $font-size: 1rem;
+//   display: table;
+
+//   &__item {
+//     font-size: $font-size;
+//   }
+  
+//   &__link {
+//     font-weight: bold;
+//   }
+
+//   &--secondary {
+//     font-size: $font-size * 0.8;
+//   }
+// }
+
+// .widget {
+//   margin: 0;
+//   footer & {
+//     margin-top: 1em;
+//   }
+// }
+
+// .menu {
+//   &, ul {
+//     list-style: none;
+//   }
+// }
+
+// .button {
+//   color: green;
+//   a#{&} {
+//     color: red,
+//   }
+// }
+
+// p {
+//   color: red;
+//   div {
+//     color: green;
+//     &:hover {
+//       color: yellow;
+//     }
+//   }
+// }
+
+// .menu {
+//   $menu-bg: blue;
+//   background: $menu-bg;
+
+//   &__link {
+//     @at-root .icon-menu {
+//       color: $menu-bg;
+//     }
+//   }
+// }
+
+
+//import
+
+// @import "import";
+
+// body {
+//   background: $color;
+// }
+
+// partials
+
+//extend
+
+//extend
+
+// .menu {
+//   background: yellow;
+//   font-size: .9em;
+//   display: flex;
+//   &__item {
+//     text-transform: uppercase;
+//   }
+//   &__link {
+//     text-decoration: none;
+//   }
+// }
+
+// .menu--secondary {
+//   @extend .menu;
+//   flex-direction: column;
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
